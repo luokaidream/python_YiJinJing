@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cbb666a-a5f3-4474-8513-489565f3e05e" name="Default Changelist" comment="">
+    <list default="true" id="9cbb666a-a5f3-4474-8513-489565f3e05e" name="Default Changelist" comment="更新字符串笔记">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +17,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="luokai" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mBR8EEQbdZ8pIJDk5CcNBj6mcQ" />
@@ -31,6 +36,34 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="string01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_YiJinJing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day01/string01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.string01" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -76,18 +109,47 @@
       <option name="project" value="LOCAL" />
       <updated>1608966009043</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="更新字符串笔记">
+      <created>1608966263856</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608966263856</updated>
+    </task>
+    <task id="LOCAL-00005" summary="更新字符串笔记">
+      <created>1608966419869</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608966419869</updated>
+    </task>
+    <task id="LOCAL-00006" summary="更新字符串笔记">
+      <created>1608966958735</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608966958735</updated>
+    </task>
+    <task id="LOCAL-00007" summary="更新字符串笔记">
+      <created>1608967114842</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608967114842</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新字符串笔记" />
     <option name="LAST_COMMIT_MESSAGE" value="更新字符串笔记" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1608966007113">
+    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1608967105856">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608966007113" />
+    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608967105856" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1608965553357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -96,10 +158,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608964920505" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1608966018101">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1608967111364">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608966018101" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608967111364" />
     <state x="467" y="155" key="git4idea.merge.GitMergeDialog" timestamp="1608965976574">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
