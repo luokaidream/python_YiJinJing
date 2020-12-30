@@ -10,19 +10,19 @@ l1 = ['A', 1, 'B', '2']
 
 # 使用list方法生成列表
 l2 = list('hello')
-print(l2)
+print(l2)  # 输出 ['h', 'e', 'l', 'l', 'o']
 
 # 列表的加 乘
 list1 = ['A', 'C']
 list2 = ['B', 'D', 'E']
 
-print(list1 + list2)
-print(list1 * 2)
+print(list1 + list2)  # 输出新列表 ['A', 'C', 'B', 'D', 'E']
+print(list1 * 2)  # 输出新列表 ['A', 'C', 'A', 'C']
 
-# 列表索引,切片， 左闭右开区间
+# 列表索引,切片， 左闭右开区间， 可以进行负索引，可以加步长
 list3 = ['a', 'e', 'i', 'o', 'u']
-print(list3[1])
-print(list3[1:3])
-print(list3[3:])
-print(list3[-3:])
-print(list3[-2::2])
+print(list3[1])  # 输出 e
+print(list3[1:3])  # 输出列表 ['e', 'i']
+print(list3[3:])  # 输出列表 ['o', 'u']
+print(list3[-3:])  # 输出列表 ['i', 'o', 'u']
+print(list3[-5::2])  # 输出列表 ['a', 'i', 'u']
