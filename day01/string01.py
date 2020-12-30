@@ -80,3 +80,6 @@ print("good man".endswith('sss'))  # 输出False
 # isupper() 判断字符串 "所有字母"  是否为大写，islower() 判断是否为小写
 print("PYTHON".isupper())  # 输出 True
 print("Python".islower())  # 输出 False
+
+# 字符串还有很多方法，如rfind() rstrip() 都是前面的对应反方法，如果想查询所有字符串方法可以使用dir()
+print(dir("string function"))
