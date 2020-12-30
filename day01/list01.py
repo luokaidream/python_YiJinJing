@@ -26,3 +26,38 @@ print(list3[1:3])  # 输出列表 ['e', 'i']
 print(list3[3:])  # 输出列表 ['o', 'u']
 print(list3[-3:])  # 输出列表 ['i', 'o', 'u']
 print(list3[-5::2])  # 输出列表 ['a', 'i', 'u']
+
+print(dir(list3))
+
+# 列表也有很多内置方法，如下
+# append() 追加元素到列表
+list4 = ['i', '1', 'am', '2', 'good']
+list4.append('no')  # pycharm会有波浪线提示这样得做法不好，不如直接定义，这里只为表示append得用法， append没有返回值，直接使用即可
+print(list4)  # 输出 ['i', '1', 'am', '2', 'good', 'no']
+
+# remove() 删除列表中指定的元素
+list4.remove('am')
+print(list4)  # 输出 ['i', '1', '2', 'good', 'no']
+
+# pop() 删除列表中最后的元素
+list4.pop()
+print(list4)  # 输出 ['i', '1', '2', 'good']
+
+# insert() 在列表中插入元素
+l3 = ['1', '3', '5', '9']
+l3.insert(1, '2')  # 在位置1插入元素’2‘
+print(l3)
+
+# count() 统计列表中某个元素的数量
+print(l3.count('3'))  # 输出 1， 元素'3'只出现一次
+
+# reserve() 用于反转列表
+l3.reverse()
+print(l3)  # 输出 ['9', '5', '3', '2', '1']
+
+# sort() 对列表进行排序
+l5 = ['A', 'c', 'D', '4', 'E', '5']
+l5.sort()  # 元素类型要一致
+print(l5)  # 输出 ['4', '5', 'A', 'D', 'E', 'c']
+l5.sort(reverse=True)  # 可以用reverse 指定是正序倒序
+print(l5)  # 输出 ['c', 'E', 'D', 'A', '5', '4']
