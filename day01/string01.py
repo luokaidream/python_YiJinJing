@@ -54,13 +54,29 @@ print(s3.index('How'))
 # print(s3.index("www"))  # 如果不在字符串中，将报错 ValueError: substring not found
 
 # find()方法也可以用于查询元素，查找到返回最左端的索引，查找不到返回-1，这就是与index的区别
-print(s3.find('are'))  # 返回 位置4
+print(s3.find('are'))  # 返回 位置4，即最左面的索引
 print(s3.find('love'))  # 返回 -1
-
-# join  split  strip isupper  islowwer  replace  startwith endw
 
 # join()方法用于将序列中的元素连接起来
 print('/'.join(['usr', 'bin', 'sh']))  # 输出 usr/bin/sh
 
 # split()方法与join对应，将字符串分割成序列
 print("usr/bin/sh".split('/'))  # 输出  ['usr', 'bin', 'sh']
+
+# replace()用于替换字符串中的元素
+print("usr/bin/sh".replace('/', '#'))  # 输出 usr#bin#sh
+
+# strip() 方法用于去掉字符串前后的空格等
+print(" I am Groot ! ".strip())  # 输出没有前后空格的I am Groot !  ，当然也可以指定其他元素
+
+# upper() and lower() 转换大小写
+print('lower'.upper())  # 输出 大写  LOWER
+print('UPPER'.lower())  # 输出 小写  upper
+
+# startswith() 用于判断以什么字符串以什么开头,返回True 或者 False, 对应endswith()
+print("good man".startswith("good"))  # 输出 True
+print("good man".endswith('sss'))  # 输出False
+
+# isupper() 判断字符串 "所有字母"  是否为大写，islower() 判断是否为小写
+print("PYTHON".isupper())  # 输出 True
+print("Python".islower())  # 输出 False
