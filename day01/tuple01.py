@@ -34,3 +34,4 @@ print(t3)
 print(dir(t3))
 
 #  'count', 'index'
+# count()方法统计元素中某系元素出现的次数
