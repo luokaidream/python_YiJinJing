@@ -27,7 +27,9 @@ print(list3[3:])  # 输出列表 ['o', 'u']
 print(list3[-3:])  # 输出列表 ['i', 'o', 'u']
 print(list3[-5::2])  # 输出列表 ['a', 'i', 'u']
 
-print(dir(list3))
+# 列表元素可以修改
+list3[1] = "Test"
+print(list3)  # 输出  ['a', 'Test', 'i', 'o', 'u']
 
 # 列表也有很多内置方法，如下
 # append() 追加元素到列表
