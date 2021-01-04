@@ -35,3 +35,7 @@ print(dir(t3))
 
 #  'count', 'index'
 # count()方法统计元素中某系元素出现的次数
+t4 = ('A', 'C', 'B', 'B', 'c', 'A')
+print(t4.count('B'))  # 输出 2 ，代表找到2个
+print(t4.index('B'))  # 输出 2 ，代表找到的第一个元素B的位置
+# print(t4.index('b'))  # 报错，找不到 ValueError: tuple.index(x): x not in tuple
