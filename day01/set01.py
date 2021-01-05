@@ -41,3 +41,7 @@ print(set2)  # 输出 {'PHP', 'java', 'python', 'Javascript'}
 set2.remove('python')
 print(set2)  # 输出 {'Javascript', 'C++', 'java'}
 # set2.remove('Ha') # 删除不存在元素 报错 KeyError: 'Ha' ， 提示KeyError 是不是类似字典了呢
+
+# 集合也可以像其他数据类型一样， 使用for循环获取每个元素
+for i in set2:
+    print(i)
