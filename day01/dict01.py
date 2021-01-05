@@ -51,3 +51,26 @@ for i in d6.keys():
 # a
 # b
 # c
+
+# 既然上面可以获取key，那就可以获取value, 使用values()方法，将字典的值组成元组放入列表
+print(d6.values())  # 输出 dict_values([[1, 2, 3], ['a', 'b', 'c'], 'Time'])
+for v in d6.values():
+    print(v)
+# 分别以下输出
+# [1, 2, 3]
+# ['a', 'b', 'c']
+# Time
+
+# 上面分别输出key 和value，使用items() 可以分别输出key 和 value组成元组放入列表中
+print(d6.items())  # 输出  dict_items([('a', [1, 2, 3]), ('b', ['a', 'b', 'c']), ('c', 'Time')])
+for i, v in d6.items():
+    print(i, "--->", v)
+# 分别输出以下内容
+# a ---> [1, 2, 3]
+# b ---> ['a', 'b', 'c']
+# c ---> Time
+
+# fromkeys() 方法是以序列中的元素作为键值，生成新的字典
+d7 = {}
+d7 = d7.fromkeys(('a', 'b', 'c'))
+print(d7)  # 输出 {'a': None, 'b': None, 'c': None}  记得给新生成的字典赋值
