@@ -38,10 +38,19 @@ set2.add('Javascript')
 print(set2)  # 输出 {'PHP', 'java', 'python', 'Javascript'}
 
 # remove()删除结合中的指定元素
-set2.remove('python')
+# set2.remove('python')
 print(set2)  # 输出 {'Javascript', 'C++', 'java'}
 # set2.remove('Ha') # 删除不存在元素 报错 KeyError: 'Ha' ， 提示KeyError 是不是类似字典了呢
 
 # 集合也可以像其他数据类型一样， 使用for循环获取每个元素
 for i in set2:
     print(i)
+
+# 集合可以使用 | & - 做交集并集差集
+
+s11 = {1, 2, 3, 4, 5, 6}
+s12 = {5, 6, 7, 9}
+s13 = {1, 2, 3}
+print(s11 | s12)  # 输出 并集 {1, 2, 3, 4, 5, 6, 7, 9}
+print(s11 & s12)  # 输出 交集 {5, 6}
+print(s11 - s13)  # 输出 {4, 5, 6}
