@@ -65,3 +65,25 @@ for i in l1:
         break
     print(i)
 # 同样break 也可以使用在while循环中
+a = 1
+while a < 10:
+    print(a)
+    a = a + 1
+    if a == 5:  # 当a = 5时将会跳出当前循环，不在执行后面内容
+        break
+
+# continue 用于跳过当前循环，执行下一次循环
+for i in range(10):
+    if i == 3:  # 判断如果i为3时，跳过当前循环
+        continue
+    print(i)
+
+print("-----------------------分割线-----------------")
+b = 1
+while b < 10:
+    if b == 4:
+        b = b + 1
+        continue
+    else:
+        print(b)
+        b = b + 1
