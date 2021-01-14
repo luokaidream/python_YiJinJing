@@ -73,6 +73,7 @@ func04(name='AAA', age=18, city='DaZhouCheng')  # 这样传入很麻烦，如果
 dict1 = {'name': 'AAA', 'age': 18, 'city': 'DaZhouCheng'}  # 先定义个字典，之后使用**传入就很简单
 func04(**dict1)  # 输出 {'name': 'AAA', 'age': 18, 'city': 'DaZhouCheng'}
 
+
 """
     前面记录了4中参数的定义和传入方式，如果有组合呢，如有必选参数，有默认参数，可变参数，关键字参数呢？？
     注意一下内容:
@@ -92,3 +93,37 @@ func05('ZhouYuan', 18, 'HunDunTian', '**args', i='love')
 # my name is ZhouYuan, and my age is 18, i live in HunDunTian
 # 可变参数: ('**args',)
 # 关键字参数 {'i': 'love'}
+
+# 只传必选参数
+func05('AXiuLuo', 322)
+# 输出
+# my name is AXiuLuo, and my age is 322, i live in DaZhouCheng
+# 可变参数: ()
+# 关键字参数 {}
+
+# 传必选和默认参数
+func05('HongYan', 222, city='TaiYangCheng')
+# my name is HongYan, and my age is 222, i live in TaiYangCheng
+# 可变参数: ()
+# 关键字参数 {}
+
+# 传必选和可变参数
+func05('DaanHeiTian', 232, 'GONGFU1', 'GONGFU2')
+# my name is DaanHeiTian, and my age is 232, i live in GONGFU1   可见GONFU1 被当成了默认参数
+# 可变参数: ('GONGFU2',)  只有GONFU2被当成了可变参数
+# 关键字参数 {}
+
+
+# 传必选和关键字参数
+func05('YiXING', 6, a=1, b=2)
+# 输出
+# my name is YiXING, and my age is 6, i live in DaZhouCheng
+# 可变参数: ()
+# 关键字参数 {'a': 1, 'b': 2}
+
+
+"""
+1：不传必选参数一定会报错
+2: 如果除默认参数外其余都被当成可变参数
+3: 传参顺序一定是  必选--默认--可变-- 关键字 
+"""
